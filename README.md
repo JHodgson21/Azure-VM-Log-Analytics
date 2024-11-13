@@ -42,14 +42,19 @@ This project demonstrates how to deploy a Virtual Machine (VM) in Microsoft Azur
 - **Automated Alerting**: Utilizes Azure's Threat Management to send alerts whenever a suspicious login attempt is detected, enabling proactive response.
 
 ## Screenshots
-- **Sentinel Workspace Setup**:
-  ![Sentinel Workspace Setup](images/sentinel-setup.png)
+- **Scheduled Query Rule**:
+![analytics Severity](https://github.com/user-attachments/assets/c398af40-7a25-4b14-bfa7-8ad053944c12)
+![full scope](https://github.com/user-attachments/assets/7a21c62e-928d-48b5-9b4f-6a6e8f5c1338)
+
+
 
 - **Custom Query Example**:
-  ![Log Analytics Query](images/log-analytics-query.png)
+![KQL](https://github.com/user-attachments/assets/3971cb8d-6ce5-4bb8-af01-0c567512a3fb)
+
 
 - **Threat Management Alert**:
-  ![Threat Management Alert](images/threat-alert.png)
+![incidents](https://github.com/user-attachments/assets/6d0a82b2-dc33-455b-8226-c73002dbf0de)
+
 
 ## Challenges & Learning Outcomes
 - **Challenges**: Initially faced some issues with configuring the correct query to exclude system accounts, but overcame this by understanding how to use Azure Monitor Query Language (KQL).
